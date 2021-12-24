@@ -12,11 +12,13 @@ print('''\033[1;36;40m__   _______   ____                      _                
 ''')
 
 link=input("\033[1;33;40mEnter the link of youtube vedio you want to download :\033[0m \033[1;32;40m")
-Inp=input("\033[1;33;40m [1] Video \n [2] Audio \n Choose :\033[0m \033[1;32;40m")
+Inp=int(input("\033[1;33;40m [1] Video \n [2] Audio \n Choose :\033[0m \033[1;32;40m"))
 if (Inp == 1 || Inp == 01):
       vedios=ys.streams.filter("mp4")
 elif (Inp == 2 || Inp == 02):
       vedios=ys.streams.filter("audio")
+else:
+      pass
 ys=YouTube(link)
 print(f"\033[1;33;40mTitle of vedio  :\033[0m \033[1;32;40m{ys.title}\033[0m")
 print(f"\033[1;33;40mViews of vedio  :\033[0m \033[1;32;40m{ys.views}\033[0m")
