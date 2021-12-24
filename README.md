@@ -12,6 +12,6 @@ This script is used for download YouTube vedio.
 4.Last step run this script using this command `python yt_downloader.py`
 
 One line command
-`wget https://raw.githubusercontent.com/TechnicalDangwal/Yt_Downloader/master/yt_downloader.py;python yt-downloader.py`
+`wget https://raw.githubusercontent.com/TechnicalDangwal/Yt_Downloader/master/yt_downloader.py;python yt_downloader.py`
 
 *for more information visit my youtube channel Technical Dangwal*
